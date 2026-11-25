@@ -3,7 +3,7 @@
 from time import perf_counter
 from core import validate_matrix, mac, decide, EPSILON
 
-REPEATS = 100
+REPEATS = 10
 
 
 def read_matrix(name, size=3):
